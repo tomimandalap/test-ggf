@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/roboto/Roboto-Regular.ttf');
+}
+
+* {
+  font-family: 'Roboto';
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  overflow-x: hidden;
+  background: #FFF;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #A4A2A2;
+  border-radius: 10px;
+}
+
+.f-xs {
+  font-size: 12px;
+}
+
+.f-s {
+  font-size: 14px;
+}
+
+.f-m {
+  font-size: 18px;
+}
+
+.f-lg {
+  font-size: 24px;
+}
+
+.f-xl {
+  font-size: 28px;
+}
+
+.c-primary {
+  color: #B6151B;
+}
+
+.c-secondary {
+  color: #A4A2A2;
+}
+
+.c-text {
+  color: #1B1717;
+}
+
+.t-shadow {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.colorLabel {
+  color: #848484;
+}
+
+input.inputBorder {
+  border-top: 0px solid black;
+  border-left: 0px solid black;
+  border-right: 0px solid black;
+  border-bottom: 1px solid black;
+}
+
+.input-border {
+  border: none;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.img-people {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #000;
+}
+
+.cursor {
+  cursor: pointer;
+}
